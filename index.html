@@ -4,32 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mengenal CSS</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <!-- internal css -->
-    <style>
-      * {
-        font-family: monospace;
-        margin-top: 10px;
-        margin-left: 20px;
-      }
-      h2 {
-        color: yellow;
-        font-family: "Times New Roman", Times, serif;
-      }
-      h5 {
-        color: red;
-      }
-    </style>
   </head>
-  <body style="background-color: navy">
+  <body>
     <!-- Menggunakan inline css -->
-    <div>
-      <h1 style="color: white">Color</h1>
-      <p style="color: yellow">Menambah color dengan cara inline CSS</p>
+    <div class="bg-yellow">
+      <h1>Color</h1>
+      <p>Menambah color dengan cara inline CSS</p>
     </div>
-    <div>
+    <div class="bg-red">
       <h2>Color</h2>
       <h5>Menambahkan color dengan cara internal CSS</h5>
+    </div>
+    <div class="bg-white">
+      <h1>Janzen Faidiban</h1>
+      <img src="https://sacode.web.id/contributors/contributor-janzen-faidiban.png" alt="" width="150px" />
+      <p>Menggunakan css eksternal</p>
+      <button>Selengkapnya</button>
+    </div>
+
+    <div class="bg-black">
+      <h1>Elly Ansek</h1>
+      <img src="https://sacode.web.id/contributors/contributor-ellyakim-ansek-2.png" alt="" width="100px" />
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quas quae maxime iure aperiam quia similique voluptatem a. Culpa eveniet quos nisi cumque. Deserunt, quo?</p>
+      <button>Selengkapnya</button>
     </div>
   </body>
 </html>
